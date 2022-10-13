@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-up form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left"><p class="title">ODIN</p></div>
+        <div id="right"><p id="text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p id="sign">Sign up <em>now</em> to get started.</p>
+        <p id="line">You <em>know</em> you want to.</p>
+        <form action="get" id="form">
+            <label for="form"><h1 id="doIt">Let's do this!</h1></label>
+            <div class="names"><label for="firstName">FIRST NAME:
+                <input type="text" name="firstName" id="firstName" required>
+            </label>
+            <label for="lastName">LAST NAME:
+                <input type="text" name="lastName" id="lastName" required>
+            </label></div>
+            <div class="info"><label for="email">EMAIL
+                <input type="email" name="email" id="email">
+            </label>
+            <label for="phone">PHONE NUMBER:
+                <input type="tel" name="phone" id="phone" required>
+            </label></div>
+            <div class="pass"><label for="password">PASSWORD:
+                <input type="password" name="password" id="password" required>
+            </label>
+            <label for="confirmPassword">CONFIRM PASSWORD:
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </label></div>
+            <button type="submit">Create Account</button>
+            <p id="logIn">Already have an account? <strong>Log in</strong></p>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

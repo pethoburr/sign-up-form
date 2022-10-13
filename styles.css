@@ -1,0 +1,135 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: absolute;
+}
+
+.left {
+    background-image: url(images/corpbackground.webp);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vw;
+    
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#right {
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.title {
+    background-color: rgba(6, 7, 7, 0.2);
+    text-align: center;
+    position: relative;
+    top: 180px;
+    font-size: 60px;
+    
+}
+
+#sign {
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#text {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+#line {
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+input {
+    margin: 20px; 
+    margin-left: 0;
+    margin-top: 0;
+    width: 240px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.names {
+    display: flex;
+}
+
+.info {
+    display: flex;
+}
+
+.pass {
+    display: flex;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+button {
+    margin: 40px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    border: 2px solid blue;
+    color: blue;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+#logIn {
+    margin: 40px;
+    margin-top: 0px;
+    font-size: .5em;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: .4em;
+}
+
+#doIt {
+    font-size: 2rem;
+}
+
+input:focus {
+    border-color: rgb(31, 81, 220);
+    box-shadow: 0 4px 2px -2px gray;
+    outline: none !important;
+}
+
+button:hover {
+    color: white;
+    background-color: blue;
+}
+
